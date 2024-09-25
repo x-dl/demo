@@ -1,0 +1,48 @@
+<mujoco model="inverted pendulum">
+    <compiler angle="radian" meshdir="./meshes/"/>
+    <size njmax="500" nconmax="100" />
+    <option timestep="0.0005" integrator="RK4" gravity="0 0 -9.8">
+        <flag sensornoise="enable" contact="enable" energy="disable" gravity="enable"/>
+    </option>
+
+    <default>
+		<joint armature="0" damping="0.001" limited="true"/>
+        <geom contype="0" friction="1 0.1 0.1" rgba="0.7 0.7 0 1"/>
+		<tendon/>
+        <motor ctrlrange="-3 3"/>
+	</default>
+    <asset>
+        <mesh name="base" file="base.STL" />
+        <mesh name="slider" file="slider.STL" />
+        <mesh name="pole" file="pole.STL" />
+    </asset>
+    <worldbody>
+        <light diffuse=".5 .5 .5" pos="0 0 3" dir="0 0 -1"/>
+
+        <body name="rail" pos="0 0 0">
+            <geom name="rail" pos="0 0 0" type="mesh" rgba="0.647059 0.619608 0.588235 1" mass="10" mesh="base" />
+
+            <body name="slider" pos="0.045 0.0525 0.0029958">
+                <inertial pos="-0.0313774 3.49624e-09 -0.0201587" quat="-6.99165e-07 0.707107 6.99165e-07 0.707107" mass="0.561162" diaginertia="0.000296399 0.000278043 0.00011598" />
+                <joint name="slide" pos="0 0 0" axis="0 1 0"  type="slide"  limited="true" range="0 0.4" />
+                <geom type="mesh" rgba="0.647059 0.619608 0.588235 1"  mesh="slider" />·
+
+                <body name="pole" pos="0.011 0 0">
+                    <inertial pos="3.73384e-06 9.27152e-07 -0.169671" quat="1 6.07386e-06 -2.43248e-05 0.000234566" mass="0.1" diaginertia="0.001518857 0.001518823 6.78e-07" />
+                    <joint name="hinge" pos="0 0 0" axis="1 0 0"  damping="0.0005" limited="false"/>
+                    <geom type="mesh"  rgba="0.898039 0.917647 0.929412 1" mesh="pole" />
+                </body>
+            </body>
+        </body>
+    </worldbody>
+
+    <actuator>
+		<motor joint="slide" name="slide"  gear="1" ctrlrange="-10 10" ctrllimited="true"/>
+	</actuator>
+    <sensor>
+        <jointpos name="jSLp" joint="slide"   noise="0.05"/>
+        <jointpos name="jHIp" joint="hinge"   noise="0.05"/>
+        <jointvel name="jSLv" joint="slide"   noise="0.05"/>
+        <jointvel name="jHIv" joint="hinge"   noise="0.05"/>
+    </sensor>
+</mujoco>

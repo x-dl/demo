@@ -1,0 +1,198 @@
+Fri Aug 19 10:40:36 2022
+WARNING: Nan, Inf or huge value in QACC at DOF 0. The simulation is unstable. Time = 0.0415.
+
+Fri Aug 19 10:40:37 2022
+WARNING: Nan, Inf or huge value in QVEL at DOF 0. The simulation is unstable. Time = 0.0395.
+
+Fri Aug 19 10:40:38 2022
+WARNING: Nan, Inf or huge value in QACC at DOF 6. The simulation is unstable. Time = 0.0395.
+
+Fri Aug 19 10:40:38 2022
+WARNING: Nan, Inf or huge value in QVEL at DOF 0. The simulation is unstable. Time = 0.0390.
+
+Fri Aug 19 10:40:38 2022
+WARNING: Nan, Inf or huge value in QACC at DOF 0. The simulation is unstable. Time = 0.0405.
+
+Fri Aug 19 10:40:40 2022
+WARNING: Nan, Inf or huge value in QVEL at DOF 0. The simulation is unstable. Time = 0.0355.
+
+Fri Aug 19 10:40:40 2022
+WARNING: Nan, Inf or huge value in QACC at DOF 0. The simulation is unstable. Time = 0.0415.
+
+Fri Aug 19 10:40:40 2022
+WARNING: Nan, Inf or huge value in QVEL at DOF 0. The simulation is unstable. Time = 0.0405.
+
+Fri Aug 19 10:40:41 2022
+WARNING: Nan, Inf or huge value in QACC at DOF 0. The simulation is unstable. Time = 0.0385.
+
+Fri Aug 19 10:40:42 2022
+WARNING: Nan, Inf or huge value in QVEL at DOF 0. The simulation is unstable. Time = 0.0395.
+
+Fri Aug 19 10:40:43 2022
+WARNING: Nan, Inf or huge value in QACC at DOF 3. The simulation is unstable. Time = 0.0390.
+
+Fri Aug 19 10:40:44 2022
+WARNING: Nan, Inf or huge value in QVEL at DOF 11. The simulation is unstable. Time = 0.0435.
+
+Fri Aug 19 10:40:46 2022
+WARNING: Nan, Inf or huge value in QACC at DOF 9. The simulation is unstable. Time = 0.0435.
+
+Thu Aug 10 19:25:06 2023
+WARNING: Nan, Inf or huge value in QPOS at DOF 0. The simulation is unstable. Time = 62.5000.
+
+Thu Aug 10 19:25:06 2023
+WARNING: Inertia matrix is too close to singular at DOF 1. Check model. Time = 75.2500.
+
+Thu Aug 10 19:25:06 2023
+WARNING: Linesearch objective is not convex
+
+Thu Aug 10 19:25:06 2023
+WARNING: Linesearch objective is not convex
+
+Thu Aug 10 19:25:06 2023
+WARNING: Linesearch objective is not convex
+
+Thu Aug 10 19:25:06 2023
+WARNING: Linesearch objective is not convex
+
+Thu Aug 10 19:25:06 2023
+WARNING: Linesearch objective is not convex
+
+Thu Aug 10 19:25:06 2023
+WARNING: Linesearch objective is not convex
+
+Thu Aug 10 19:25:06 2023
+WARNING: Linesearch objective is not convex
+
+Thu Aug 10 19:25:06 2023
+WARNING: Linesearch objective is not convex
+
+Thu Aug 10 19:25:06 2023
+WARNING: Linesearch objective is not convex
+
+Thu Aug 10 19:25:06 2023
+WARNING: Linesearch objective is not convex
+
+Thu Aug 10 19:25:06 2023
+WARNING: Linesearch objective is not convex
+
+Thu Aug 10 19:25:06 2023
+WARNING: Linesearch objective is not convex
+
+Thu Aug 10 19:25:06 2023
+WARNING: Linesearch objective is not convex
+
+Thu Aug 10 19:25:06 2023
+WARNING: Linesearch objective is not convex
+
+Thu Aug 10 19:25:06 2023
+WARNING: Linesearch objective is not convex
+
+Thu Aug 10 19:25:06 2023
+WARNING: Linesearch objective is not convex
+
+Thu Aug 10 19:25:06 2023
+WARNING: Linesearch objective is not convex
+
+Thu Aug 10 19:25:06 2023
+WARNING: Linesearch objective is not convex
+
+Thu Aug 10 19:25:06 2023
+WARNING: Linesearch objective is not convex
+
+Thu Aug 10 19:25:06 2023
+WARNING: Linesearch objective is not convex
+
+Thu Aug 10 19:25:06 2023
+WARNING: Linesearch objective is not convex
+
+Thu Aug 10 19:25:06 2023
+WARNING: Linesearch objective is not convex
+
+Thu Aug 10 19:25:06 2023
+WARNING: Linesearch objective is not convex
+
+Thu Aug 10 19:25:06 2023
+WARNING: Linesearch objective is not convex
+
+Thu Aug 10 19:25:06 2023
+WARNING: Linesearch objective is not convex
+
+Thu Aug 10 19:25:06 2023
+WARNING: Linesearch objective is not convex
+
+Thu Aug 10 19:25:06 2023
+WARNING: Linesearch objective is not convex
+
+Thu Aug 10 19:25:06 2023
+WARNING: Linesearch objective is not convex
+
+Thu Aug 10 19:25:06 2023
+WARNING: Linesearch objective is not convex
+
+Thu Aug 10 19:25:06 2023
+WARNING: Linesearch objective is not convex
+
+Thu Aug 10 19:25:06 2023
+WARNING: Linesearch objective is not convex
+
+Thu Aug 10 19:25:06 2023
+WARNING: Linesearch objective is not convex
+
+Thu Aug 10 19:25:06 2023
+WARNING: Linesearch objective is not convex
+
+Thu Aug 10 19:25:06 2023
+WARNING: Linesearch objective is not convex
+
+Thu Aug 10 19:25:06 2023
+WARNING: Linesearch objective is not convex
+
+Thu Aug 10 19:25:06 2023
+WARNING: Linesearch objective is not convex
+
+Thu Aug 10 19:25:06 2023
+WARNING: Linesearch objective is not convex
+
+Thu Aug 10 19:25:06 2023
+WARNING: Linesearch objective is not convex
+
+Thu Aug 10 19:25:06 2023
+WARNING: Linesearch objective is not convex
+
+Thu Aug 10 19:25:06 2023
+WARNING: Linesearch objective is not convex
+
+Thu Aug 10 19:25:06 2023
+WARNING: Linesearch objective is not convex
+
+Thu Aug 10 19:25:06 2023
+WARNING: Linesearch objective is not convex
+
+Thu Aug 10 19:25:06 2023
+WARNING: Linesearch objective is not convex
+
+Thu Aug 10 19:25:06 2023
+WARNING: Linesearch objective is not convex
+
+Thu Aug 10 19:25:06 2023
+WARNING: Linesearch objective is not convex
+
+Thu Aug 10 19:25:06 2023
+WARNING: Linesearch objective is not convex
+
+Thu Aug 10 19:25:06 2023
+WARNING: Linesearch objective is not convex
+
+Thu Aug 10 19:25:06 2023
+WARNING: Linesearch objective is not convex
+
+Thu Aug 10 19:25:06 2023
+WARNING: Linesearch objective is not convex
+
+Thu Aug 10 19:25:06 2023
+WARNING: Linesearch objective is not convex
+
+Thu Aug 10 19:25:06 2023
+WARNING: Nan, Inf or huge value in CTRL at ACTUATOR 0. The simulation is unstable. Time = 0.5000.
+
